@@ -9,4 +9,7 @@ h3{
 }
 p{
     color:pink;
-}
+
+  body{
+    background: url(../assets/bgtexture.jpg);
+  }
