@@ -114,4 +114,10 @@
 
 
 /* Start Andy's Styles */
+body{
+    background: url(../assets/bgtexture.jpg);
+}
+.wrapper{
+    width: 100%; 
+}
 /* End Andy's Styles */
