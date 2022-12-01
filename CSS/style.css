@@ -71,7 +71,38 @@
 
 
 /* Start Catering Page Styles */
+.cateringHeader{
+    background-color: white;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: FugazOneRegular;
+}
 
+.cateringHero{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 35%;
+    background-image: url("../assets/cateringHero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cateringServicesTxt{
+    font-family: FugazOneRegular;
+    color:#5F002B;
+    font-size: 30px;
+}
+
+.cateringTextBG{
+    background-color: white;
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: Montauk;
+}
 /* End Catering Page Styles */
 /* End Brandon's Styles */
 
