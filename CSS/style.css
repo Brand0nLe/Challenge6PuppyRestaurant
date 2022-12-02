@@ -1,9 +1,128 @@
+/* Start Brandon's Styles */
+/* Fonts start here */
+@font-face{
+    font-family: FugazOneRegular;
+    src: url(../fonts/FugazOne-Regular.ttf)
+}
+@font-face{
+    font-family: MontaukRegular;
+    src: url(../fonts/MontaukRegular.otf)
+}
+/* Fonts end here */
 
+/* remember to use this class for other pages bg image - set class to body */
+.bgImage{
+    background-image: url("../assets/bgtexture.jpg");
+}
+
+/* NavBar Styles Start */
+.nav-link{
+    color: #5f002b;
+    font-family: FugazOneRegular;
+    font-size: 20px;
+}
+
+.leftrightPad{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+/* NavBar Styles End */
+
+/* Start Index Page Styles */
+.homeheroImage{
+    background-image: url("../assets/homeHero.jpg");
+    padding-bottom: 30%;
+    max-width: 100%;
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.muzzlesLorem{
+    color:#5F002B;
+    font-family: MontaukRegular;
+    font-size: 100%;
+}
+
+.muzzlesTitle{
+    color:#5F002B;
+    font-size: 230%;
+    font-family: FugazOneRegular;
+}
+
+.loremWhiteBox{
+    background-color: white;
+}
+/* End Index Page Styles */
+
+/* Start Footer */
+.footerText{
+    font-family: MontaukRegular;
+    color: #5F002B;
+}
+/* .footerText2{
+    font-family: MontaukRegular;
+    color: #5F002B;
+    display: flex;
+    justify-content: right;
+    align-items: column;
+} */
+/* End Footer */
+
+
+/* Start Catering Page Styles */
+.cateringHeader{
+    background-color: white;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: FugazOneRegular;
+}
+
+.cateringHero{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 35%;
+    background-image: url("../assets/cateringHero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cateringServicesTxt{
+    font-family: FugazOneRegular;
+    color:#5F002B;
+    font-size: 30px;
+}
+
+.cateringTextBG{
+    background-color: white;
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: Montauk;
+}
+/* End Catering Page Styles */
+/* End Brandon's Styles */
+
+
+
+/* Start Elizar's Styles */
+/* End Elizar's Styles */
+
+
+
+/* Start Andy's Styles */
 body{
     background: url(../assets/bgtexture.jpg);
 }
 .wrapper{
     width: 100%; 
 }
+<<<<<<< HEAD
 
 
+=======
+/* End Andy's Styles */
+>>>>>>> 95710fdec4fd3ec13a7f1e9e7b4131fda62bca36
