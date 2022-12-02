@@ -119,6 +119,14 @@ body{
 }
 .wrapper{
     width: 100%; 
+    background-color: white;
+    color: #5F002B;
 }
+.ourTeam{
+    background-color: white;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: FugazOneRegular;
 
+}
 /* End Andy's Styles */
