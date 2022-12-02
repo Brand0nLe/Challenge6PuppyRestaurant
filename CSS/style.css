@@ -16,3 +16,16 @@ body
 padding-left: 9%;
 padding-right: 10%;
 }
+.elizarRow
+{
+    border-bottom: 2px;
+    border-style: solid;
+    border-color:#5F002B;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.whiteRow
+{
+    -webkit-text-fill-color: white;
+}
