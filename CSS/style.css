@@ -35,5 +35,11 @@ width: 100%;
 }
 .leftrightPad
 {
-    padding-left: 9%;
+    padding-inline-start: 9%;
+    padding-inline-end: 2%;
+  
+}
+.logoCom
+{
+    -webkit-text-fill-color: transparent;
 }
