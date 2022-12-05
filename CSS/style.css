@@ -33,3 +33,7 @@ width: 100%;
 {
     -webkit-text-fill-color: white;
 }
+.leftrightPad
+{
+    padding-left: 9%;
+}
