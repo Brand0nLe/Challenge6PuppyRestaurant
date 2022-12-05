@@ -43,3 +43,7 @@ width: 100%;
 {
     -webkit-text-fill-color: transparent;
 }
+.photoBar
+{
+    background-color: white;
+}
