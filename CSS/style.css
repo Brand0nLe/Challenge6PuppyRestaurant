@@ -60,3 +60,9 @@ width: 100%;
 {
     -webkit-text-fill-color: transparent;
 }
+.photosTitle
+{
+    color: #5f002b;
+    font-family: FugazOneRegular;
+    font-size: 50px;
+}
