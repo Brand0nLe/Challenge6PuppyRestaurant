@@ -13,6 +13,9 @@
 /* remember to use this class for other pages bg image - set class to body */
 .bgImage{
     background-image: url("../assets/bgtexture.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 /* NavBar Styles Start */
@@ -109,6 +112,38 @@
 
 
 /* Start Elizar's Styles */
+body
+{
+    background: url(../assets/bgtexture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-menu
+{
+    padding-left: 9%;
+    padding-right: 9%;
+    -webkit-text-fill-color: #5F002B;
+   
+}
+.container-menu-images
+{
+padding-left: 9%;
+padding-right: 10%;
+}
+.elizarRow
+{
+    border-bottom: 2px;
+    border-style: solid;
+    border-color:#5F002B;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.whiteRow
+{
+    -webkit-text-fill-color: white;
+}
+
 /* End Elizar's Styles */
 
 
