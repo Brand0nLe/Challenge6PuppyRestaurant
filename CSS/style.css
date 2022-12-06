@@ -56,3 +56,7 @@ width: 100%;
 {
     padding-inline-start: 0%;
 }
+.spacing
+{
+    -webkit-text-fill-color: transparent;
+}
