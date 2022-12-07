@@ -70,8 +70,9 @@ width: 100%;
 {
     padding-left: 7%;
 }
-h6, h5, p, h2
+h6, h5, p, h2, h1
 {
     -webkit-text-fill-color: #5f002b;
+    font-family: FugazOneRegular;
   
 }
