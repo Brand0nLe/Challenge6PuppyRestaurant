@@ -109,6 +109,42 @@
 
 
 /* Start Elizar's Styles */
+
+
+body
+{
+    background: url(../assets/bgtexture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-menu
+{
+    padding-left: 9%;
+    padding-right: 9%;
+    -webkit-text-fill-color: #5F002B;
+   
+}
+.container-menu-images
+{
+padding-left: 9%;
+padding-right: 10%;
+}
+.elizarRow
+{
+    border-bottom: 2px;
+    border-style: solid;
+    border-color:#5F002B;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.whiteRow
+{
+    -webkit-text-fill-color: white;
+}
+
+
+
 /* End Elizar's Styles */
 
 
@@ -122,7 +158,7 @@ body{
     width: 100%; 
     background-color: white;
     color: #5F002B;
-}
+    
 .ourTeam{
     background-color: white;
     color: #5F002B;
@@ -157,5 +193,5 @@ body{
     padding-right: 2%;
     padding-bottom: 2%;
     font-family: Montauk;
-}
+    }
 /* End Andy's Styles */
