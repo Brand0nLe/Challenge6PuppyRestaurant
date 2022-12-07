@@ -33,12 +33,6 @@ width: 100%;
 {
     -webkit-text-fill-color: white;
 }
-.leftrightPad
-{
-    padding-inline-start: 9%;
-    padding-inline-end: 2%;
-  
-}
 .logoCom
 {
     -webkit-text-fill-color: transparent;
@@ -70,7 +64,7 @@ width: 100%;
 {
     padding-left: 7%;
 }
-h6, h5, p, h2, h1
+.font47
 {
     -webkit-text-fill-color: #5f002b;
     font-family: FugazOneRegular;
