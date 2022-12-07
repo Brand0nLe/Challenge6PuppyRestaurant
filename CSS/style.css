@@ -157,7 +157,7 @@ body{
     width: 100%; 
     background-color: white;
     color: #5F002B;
-}
+    
 .ourTeam{
     background-color: white;
     color: #5F002B;
@@ -165,6 +165,32 @@ body{
     font-family: FugazOneRegular;
 
 }
+.photospage{
+    background-color: white;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: FugazOneRegular;
 
+}
+.StoryTextBG{
+    background-color: white;
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: Montauk;
+    float:top right;
+}
 
+.card-text{
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: Montauk;
+    }
 /* End Andy's Styles */
