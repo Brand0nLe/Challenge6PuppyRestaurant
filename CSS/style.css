@@ -177,6 +177,11 @@ width: 100%;
 .font47
 {
     -webkit-text-fill-color: #5f002b;
-    font-family: FugazOneRegular;
+    font-family: MontaukRegular;
   
+}
+.font49
+{
+    font-family: FugazOneRegular;
+    -webkit-text-fill-color: #5f002b;
 }
