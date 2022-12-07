@@ -115,6 +115,7 @@
 
 /* Start Andy's Styles */
 body{
+    font-family: Montauk;
     background: url(../assets/bgtexture.jpg);
 }
 .wrapper{
@@ -125,8 +126,8 @@ body{
 .ourTeam{
     background-color: white;
     color: #5F002B;
-    font-size: 50px;
-    font-family: FugazOneRegular;
+    font-size: 20px;
+    font-family: Montauk;
 
 }
 .photospage{
@@ -144,7 +145,7 @@ body{
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
-    font-family: Montauk;
+    font-family: MontaukRegular;
     float:top right;
 }
 
