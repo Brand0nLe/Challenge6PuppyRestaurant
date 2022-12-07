@@ -70,3 +70,8 @@ width: 100%;
 {
     padding-left: 7%;
 }
+h6, h5, p, h2
+{
+    -webkit-text-fill-color: #5f002b;
+  
+}
