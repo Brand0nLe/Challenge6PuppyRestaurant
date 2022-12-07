@@ -110,18 +110,21 @@ body
     background: url(../assets/bgtexture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 .container-menu
 {
     padding-left: 9%;
     padding-right: 9%;
     -webkit-text-fill-color: #5F002B;
+    width: 100%;
    
 }
 .container-menu-images
 {
 padding-left: 9%;
-padding-right: 10%;
+padding-right: 11%;
+width: 100%;
 }
 .elizarRow
 {
@@ -131,10 +134,38 @@ padding-right: 10%;
     border-top: none;
     border-left: none;
     border-right: none;
+    width: 100%;
 }
 .whiteRow
 {
     -webkit-text-fill-color: white;
+}
+.photoBar
+{
+    background-color: white;
+}
+.iOne
+{
+    border: 10px solid white;
+   
+}
+.icOne
+{
+    padding-inline-start: 0%;
+}
+.spacing
+{
+    -webkit-text-fill-color: transparent;
+}
+.photosTitle
+{
+    color: #5f002b;
+    font-family: FugazOneRegular;
+    font-size: 50px;
+}
+.footerPhotos
+{
+    padding-left: 7%;
 }
 /* End Elizar's Styles */
 
