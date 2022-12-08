@@ -27,12 +27,14 @@
     font-size: 20px;
 }
 
+/* NavBar Styles End */
+
+/* padding class I use in the body to align the footer and nav bar*/
 .leftrightPad {
     padding-left: 8%;
     padding-right: 8%;
 }
 
-/* NavBar Styles End */
 
 /* Start Index Page Styles */
 .homeheroImage {
@@ -224,16 +226,20 @@ body {
     padding-bottom: 2%;
     float: top right;
 }
+
 .StoryText {
     font-family: MontaukRegular;
 }
+
 .StoryTitle {
     font-family: FugazOneRegular;
 }
+
 /* AboutPageMargin class is for spacing when changing to mobile between the cards */
-.AboutPageMargin{
+.AboutPageMargin {
     margin-bottom: 10px;
 }
+
 .card-text {
     color: #5F002B;
     font-size: 100%;
@@ -243,4 +249,5 @@ body {
     padding-bottom: 2%;
     font-family: Montauk;
 }
+
 /* End Andy's Styles */
