@@ -108,9 +108,8 @@
 
 
 
+
 /* Start Elizar's Styles */
-
-
 body
 {
     background: url(../assets/bgtexture.jpg);
@@ -122,12 +121,13 @@ body
     padding-left: 9%;
     padding-right: 9%;
     -webkit-text-fill-color: #5F002B;
-   
+    width: 100%;   
 }
 .container-menu-images
 {
 padding-left: 9%;
-padding-right: 10%;
+padding-right: 11%;
+width: 100%;
 }
 .elizarRow
 {
@@ -137,13 +137,50 @@ padding-right: 10%;
     border-top: none;
     border-left: none;
     border-right: none;
+    width: 100%;
 }
 .whiteRow
 {
     -webkit-text-fill-color: white;
 }
-
-
+.photoBar
+{
+    background-color: white;
+}
+.iOne
+{
+    border: 10px solid white;
+   
+}
+.icOne
+{
+    padding-inline-start: 0%;
+}
+.spacing
+{
+    -webkit-text-fill-color: transparent;
+}
+.photosTitle
+{
+    color: #5f002b;
+    font-family: FugazOneRegular;
+    font-size: 50px;
+}
+.footerPhotos
+{
+    padding-left: 7%;
+}
+.font47
+{
+    -webkit-text-fill-color: #5f002b;
+    font-family: MontaukRegular;
+  
+}
+.font49
+{
+    font-family: FugazOneRegular;
+    -webkit-text-fill-color: #5f002b;
+}
 
 /* End Elizar's Styles */
 
