@@ -222,10 +222,18 @@ body {
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
-    font-family: MontaukRegular;
     float: top right;
 }
-
+.StoryText {
+    font-family: MontaukRegular;
+}
+.StoryTitle {
+    font-family: FugazOneRegular;
+}
+/* AboutPageMargin class is for spacing when changing to mobile between the cards */
+.AboutPageMargin{
+    margin-bottom: 10px;
+}
 .card-text {
     color: #5F002B;
     font-size: 100%;
