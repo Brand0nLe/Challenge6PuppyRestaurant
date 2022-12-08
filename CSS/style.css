@@ -108,20 +108,20 @@
 
 
 
+
+/* Start Elizar's Styles */
 body
 {
     background: url(../assets/bgtexture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
 }
 .container-menu
 {
     padding-left: 9%;
     padding-right: 9%;
     -webkit-text-fill-color: #5F002B;
-    width: 100%;
-   
+    width: 100%;   
 }
 .container-menu-images
 {
@@ -142,10 +142,6 @@ width: 100%;
 .whiteRow
 {
     -webkit-text-fill-color: white;
-}
-.logoCom
-{
-    -webkit-text-fill-color: transparent;
 }
 .photoBar
 {
@@ -185,3 +181,53 @@ width: 100%;
     font-family: FugazOneRegular;
     -webkit-text-fill-color: #5f002b;
 }
+
+/* End Elizar's Styles */
+
+
+
+/* Start Andy's Styles */
+body{
+    font-family: Montauk;
+    background: url(../assets/bgtexture.jpg);
+}
+.wrapper{
+    width: 100%; 
+    background-color: white;
+    color: #5F002B;
+}
+.ourTeam{
+    background-color: white;
+    color: #5F002B;
+    font-size: 20px;
+    font-family: Montauk;
+}
+.photospage{
+    background-color: white;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: FugazOneRegular;
+
+}
+.StoryTextBG{
+    background-color: white;
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: MontaukRegular;
+    float:top right;
+}
+
+.card-text{
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: Montauk;
+    }
+/* End Andy's Styles */

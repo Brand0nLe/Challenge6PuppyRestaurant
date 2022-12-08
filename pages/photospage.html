@@ -3,7 +3,7 @@ Brandon Le, Andrea Burr, Elizar Garcia
 11-28-22
 Challenge #6 - Puppy Restaurant  
 Group Project where we use Bootstrap, HTML, CSS, and Javascript to recreate an adobe prototype "Puppy Restaurant" and turn it into a fully responsive website. It will be hosted on github pages and we each have our own branch in the project.   
- -->
+-->
 
 
  <!doctype html>
@@ -15,7 +15,9 @@ Group Project where we use Bootstrap, HTML, CSS, and Javascript to recreate an a
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
      <link rel="stylesheet" href="../CSS/style.css">
    </head>
-   <body>
+   <body class ="bgImg">
+   
+   
     <!--start nav-->
     <div class="container-fluid d-none d-lg-block leftrightPad">
       <div class="row ">
@@ -108,44 +110,47 @@ Group Project where we use Bootstrap, HTML, CSS, and Javascript to recreate an a
   </div>
 <!----->
 <br>
-<!---footer-->
-<div class="footerPhotos" class="container-fluid my-5 d-none d-lg-block leftrightPad ">
-  <div class="row">
-    <div class="col-8 footerText mt-1">
-      <p>1357 Mutt Street, Rottweiler CA. 12345</p>
-      <p>Phone: 123-456-7890</p>
-    </div>
-    <div class="col-4 footerText text-center">
-      
-     <p class="logoCom" >spacing-----use <img src="../assets/CompanyLogo.png" alt="" width="30%"></p>
-      <p>Copyright © Muzzles Restaurant</p>
-    </div>
-  </div>
-</div>
+<!-- Start Footer -->
+   <div class="container-fluid my-5 d-none d-lg-block leftrightPad">
+     <div class="row">
+       <div class="col-6 footerText mt-1">
+         <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+         <p>Phone: 123-456-7890</p>
+       </div>
+       <div class="col-6 footerText text-end">
+         <img src="../assets/CompanyLogo.png" alt="" width="20%">
+         <p>Copyright © Muzzles Restaurant</p>
+       </div>
+     </div>
+   </div>
+ 
+ 
+   <!-- hide on lg -->
+   <div class="container-fluid d-lg-none my-5 leftrightPad">
+     <div class="row">
+       <div class="col-12 text-center">
+         <img src="../assets/CompanyLogo.png" alt="" width="30%">
+       </div>
+       <div class="col-12 footerText text-center">
+         <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+         <p>Phone: 123-456-7890</p>
+       </div>
+       <div class="col-12 footerText text-center">
+         <p>Copyright © Muzzles Restaurant</p>
+       </div>
+     </div>
+   </div>
+   <!-- End Footer -->
+ 
+ 
+ 
+ 
+ 
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="scripts/app.js"></script>
+</body>
 
-
-<!-- hide on lg -->
-<div class="container-fluid d-lg-none my-5 leftrightPad">
-  <div class="row">
-    <div class="col-12 text-center">
-      <img src="../assets/CompanyLogo.png" alt="" width="30%">
-    </div>
-    <div class="col-12 footerText text-center">
-      <p>1357 Mutt Street, Rottweiler CA. 12345</p>
-      <p>Phone: 123-456-7890</p>
-    </div>
-    <div class="col-12 footerText text-center">
-    <p>Copyright © Muzzles Restaurant</p>
-    </div>
-  </div>
-</div>
- 
- 
- 
- 
- 
- 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-     <script src="scripts/app.js"></script>
-   </body>
- </html>
+</html>
