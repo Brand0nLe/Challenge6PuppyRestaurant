@@ -137,7 +137,7 @@ body {
 .elizarRow {
     border-bottom: 2px;
     border-style: solid;
-    border-color: #5F002B;
+    border-color: #980051;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -145,7 +145,11 @@ body {
 }
 
 .whiteRow {
-    -webkit-text-fill-color: white;
+    color: white;
+}
+.whiteFont {
+    color:white;
+    font-family: MontaukRegular;
 }
 
 .photoBar {
