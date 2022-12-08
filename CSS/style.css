@@ -130,7 +130,7 @@ body {
 
 .container-menu-images {
     padding-left: 9%;
-    padding-right: 11%;
+    padding-right: 9%;
     width: 100%;
 }
 
@@ -175,8 +175,10 @@ body {
     font-size: 50px;
 }
 
-.footerPhotos {
-    padding-left: 7%;
+.MenuPad {
+    padding-left: 9%;
+    padding-right: 9%;
+    
 }
 
 .font47 {
