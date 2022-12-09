@@ -1,0 +1,403 @@
+<!-- 
+Brandon Le, Andrea Burr, Elizar Garcia
+11-28-22
+Challenge #6 - Puppy Restaurant  
+Group Project where we use Bootstrap, HTML, and CSS to recreate an adobe prototype "Puppy Restaurant" and turn it into a fully responsive website. It will be hosted on github pages and we each have our own branch in the project.   
+ -->
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+
+  <!-- Nav Bar Start -->
+  <div class="container-fluid d-none d-lg-block leftrightPad">
+    <div class="row ">
+      <div class="col-3 ">
+        <a href="../index.html"><img src="../assets/MuzzlesLogo.png" width="70%" alt="" loading="lazy"></a>
+      </div>
+      <div class="col-9 d-none d-lg-block mt-5">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="../pages/aboutpage.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menupage.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/cateringpage.html">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/photospage.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid d-lg-none leftrightPad">
+    <div class="row">
+      <div class="col-3">
+        <a href="../index.html"><img src="../assets/MuzzlesLogo.png" width="300%" alt="" loading="lazy"></a>
+      </div>
+      <div class="col-12">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="../pages/aboutpage.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menupage.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/cateringpage.html">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/photospage.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Nav Bar End -->
+
+
+
+
+
+  <!--our menu banner------------------------------------------------------------------------------>
+  <div class="container-fluid menuTitleText">
+    <div class="row">
+      <div class="col-12">
+        <div class=" bg-white text-dark">
+          <h2 class="font49 bigText text-center">Our Menu</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid container-menu-images">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="card" style="min-width: fit-content;">
+          <img src="../assets/menubeef.jpg" class="card-img-top" alt="beef">
+          <div class="card-body">
+            <p class="card-text">
+            <h2 class="font49"><b>Sandwiches</b> </h3>
+              <h6 class="font47"><em>All Sandwiches come with a side.</em></h6>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10 mt-5">
+                  <h5 class="font47">Sizzling Steak Sandwich</h5>
+                  <h6 class="font47"><small><em class="font47">Open faced steak sandwich with grilled peppers and fried
+                        onions.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 mt-5 align-item-right">
+                  <P class="font47">$15.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Tenderloin Sliders</h5>
+                  <h6 class="font47"><small><em>Three beef tenderloin slider with horseradish cream and blackberry
+                        bbq.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$13.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Classic Chicken Panini</h5>
+                  <h6 class="font47"><small><em>Grilled chicken with Montery jack, romain lettuce, tomato, and
+                        cilantro.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$10.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Smoked Turkey Club.</h5>
+                  <h6 class="font47"><small><em>Open faced steak sandwich with grilled peppers and fried
+                        onions.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$8.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Tuna Sandwich</h5>
+                  <h6 class="font47"><small><em>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on
+                        toast.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$6.99</P>
+                </div>
+              </div>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="card" style="min-width: fit-content;">
+          <img src="../assets/menuseafood.jpg" class="card-img-top" alt="seafood">
+          <div class="card-body">
+            <p class="card-text">
+            <h2 class="font49"><b>Seafood</b> </h3>
+              <h6 class="font47"><em>All Seafood comes with a side of rice pilaf and grilled vegatables</em></h6>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10 mt-5">
+                  <h5 class="font47">Honey Shrimp Skewers</h5>
+                  <h6 class="font47"><small><em></em>Ten honey glazed shrimps grilled with sesame seeds and
+                      rosemary.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 mt-5 align-item-right">
+                  <P class="font47">$15.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Grilled Salmom</h5>
+                  <h6 class="font47"><small><em>Salmon grilled in a lime butter sauce.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$13.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Grilled Tilapia</h5>
+                  <h6 class="font47"><small><em>A whole grilled tilapia cooked with smoked paprika.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$10.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Parmesan Fish Sticks</h5>
+                  <h6 class="font47"><small><em>Sliced salmon in parmesan breading served with lemon dill tartar
+                        sauce.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$8.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row whiteRow ">
+                <div class="col-10">
+                  <h5 class=" whiteFont">Tuna Sandwich</h5>
+                  <h6 class=" whiteFont"><small><em>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on
+                        toast.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="whiteFont">$6.99</P>
+                </div>
+              </div>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="card" style="min-width: fit-content;">
+          <img src="../assets/menumeat.jpg" class="card-img-top" alt="meat">
+          <div class="card-body">
+            <p class="card-text">
+            <h2 class="font49"><b>On the grill</b> </h3>
+              <h6 class="font47"><em>served with corn, cheddar biscuits, and your choice of coleslaw or potato
+                  salad.</em></h6>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10 mt-5">
+                  <h5 class="font47">Baby Back - Full Rack</h5>
+                  <h6 class="font47"><small><em>A full rack of pork babyback ribs grilled and glazed with blackberry
+                        bbq.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 mt-5 align-item-right">
+                  <P class="font47">$19.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Baby Back - Half Rack</h5>
+                  <h6 class="font47"><small><em>A half rack of pork babyback ribs grilled and glazed with blackberry
+                        bbq.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$13.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Boneless Ribeye</h5>
+                  <h6 class="font47"><small><em>A three inch thick boneless ribeye grilled in a rosemary rub and
+                        butter.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$25.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Smoked Turkey Club</h5>
+                  <h6 class="font47"><small><em>Open faced steak sandwich with grilled peppers and fried
+                        onions.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$8.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Tuna Sandwich</h5>
+                  <h6 class="font47"><small><em>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on
+                        toast.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$6.99</P>
+                </div>
+              </div>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="card" style="min-width: fit-content;">
+          <img src="../assets/menudesserts.jpg" class="card-img-top" alt="desserts">
+          <div class="card-body">
+            <p class="card-text">
+            <h2 class="font49"><b>Desserts</b> </h3>
+              <h6 class="font47"><em>A shot of esspresso can be added to any dessert for an additional $2.</em></h6>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10 mt-5">
+                  <h5 class="font47">Double Walnut Brownies</h5>
+                  <h6 class="font47"><small><em>Two brownies with a walnut crust, ice cream and chocolate
+                        sauce.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 mt-5 align-item-right">
+                  <P class="font47">$8.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Cheese Cake with chocolate Sauce</h5>
+                  <h6 class="font47"><small><em>Cheesecake with ice cream, chocolate shavings and chocolate
+                        sauce.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$7.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Triple Chocolate Brownie</h5>
+                  <h6 class="font47"><small><em>A tripple chocolate brownie served with vanilla ice cream and
+                        walnuts.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$6.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">House Made Shaved Gelato and Cookies</h5>
+                  <h6 class="font47"><small><em>Your choice of shaved gelato with whole cookies. Options changed
+                        daily.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$5.99</P>
+                </div>
+              </div>
+              <br>
+              <div class="row elizarRow">
+                <div class="col-10">
+                  <h5 class="font47">Grilled Peaches and Ice Cream</h5>
+                  <h6 class="font47"><small><em>Grilled peaches in cinnamon and brown sugar glazed with ice
+                        cream.</em></small></h6>
+                </div>
+                <div class="col-12 col-lg-2 align-item-right">
+                  <P class="font47">$4.99</P>
+                </div>
+              </div>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+  <!-- Start Footer -->
+  <div class="container-fluid my-5 d-none d-lg-block MenuPad">
+    <div class="row">
+      <div class="col-6 footerText mt-1">
+        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="col-6 footerText text-end">
+        <img src="../assets/CompanyLogo.png" alt="" width="20%">
+        <p>Copyright © Muzzles Restaurant</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- hide on lg -->
+  <div class="container-fluid d-lg-none my-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <img src="../assets/CompanyLogo.png" alt="" width="30%">
+      </div>
+      <div class="col-12 footerText text-center">
+        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="col-12 footerText text-center">
+        <p>Copyright © Muzzles Restaurant</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>

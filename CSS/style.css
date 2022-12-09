@@ -1,0 +1,264 @@
+/* Start Brandon's Styles */
+/* Fonts start here */
+@font-face {
+    font-family: FugazOneRegular;
+    src: url(../fonts/FugazOne-Regular.ttf)
+}
+
+@font-face {
+    font-family: MontaukRegular;
+    src: url(../fonts/Montauk-Regular.otf)
+}
+
+/* Fonts end here */
+
+/* remember to use this class for other pages bg image - set class to body */
+.bgImage {
+    background-image: url("../assets/bgtexture.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* NavBar Styles Start */
+.nav-link {
+    color: #5f002b;
+    font-family: FugazOneRegular;
+    font-size: 20px;
+}
+
+/* NavBar Styles End */
+
+/* padding class I use in the body to align the footer and nav bar*/
+.leftrightPad {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+/* Start Index Page Styles */
+.homeheroImage {
+    background-image: url("../assets/homeHero.jpg");
+    padding-bottom: 30%;
+    max-width: 100%;
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.muzzlesLorem {
+    color: #5F002B;
+    font-family: MontaukRegular;
+    font-size: 100%;
+}
+
+.muzzlesTitle {
+    color: #5F002B;
+    font-size: 230%;
+    font-family: FugazOneRegular;
+}
+
+.loremWhiteBox {
+    background-color: white;
+}
+
+/* End Index Page Styles */
+
+/* Start Footer */
+.footerText {
+    font-family: MontaukRegular;
+    color: #5F002B;
+}
+
+/* End Footer */
+
+
+/* Start Catering Page Styles */
+.cateringHeader {
+    background-color: white;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: FugazOneRegular;
+}
+
+.cateringHero {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 35%;
+    background-image: url("../assets/cateringHero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cateringServicesTxt {
+    font-family: FugazOneRegular;
+    color: #5F002B;
+    font-size: 30px;
+}
+
+.cateringTextBG {
+    background-color: white;
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: Montauk;
+}
+
+/* End Catering Page Styles */
+/* End Brandon's Styles */
+
+
+
+
+/* Start Elizar's Styles */
+body {
+    background: url(../assets/bgtexture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.menuTitleText {
+    padding-left: 9%;
+    padding-right: 9%;
+    -webkit-text-fill-color: #5F002B;
+    width: 100%;
+    margin-bottom:2rem ;
+    margin-top: 2rem;
+}
+.bigText {
+    font-size: 50px;
+}
+
+.container-menu-images {
+    padding-left: 9%;
+    padding-right: 9%;
+    width: 100%;
+}
+
+.elizarRow {
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #980051;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.whiteRow {
+    color: white;
+}
+.whiteFont {
+    color:white;
+    font-family: MontaukRegular;
+}
+
+.photoBar {
+    background-color: white;
+}
+
+.iOne {
+    border: 10px solid white;
+
+}
+
+.icOne {
+    padding-inline-start: 0%;
+}
+
+.spacing {
+    -webkit-text-fill-color: transparent;
+}
+
+.photosTitle {
+    color: #5f002b;
+    font-family: FugazOneRegular;
+    font-size: 50px;
+}
+
+.MenuPad {
+    padding-left: 9%;
+    padding-right: 9%;
+    
+}
+
+.font47 {
+    -webkit-text-fill-color: #5f002b;
+    font-family: MontaukRegular;
+
+}
+
+.font49 {
+    font-family: FugazOneRegular;
+    -webkit-text-fill-color: #5f002b;
+}
+
+/* End Elizar's Styles */
+
+
+
+/* Start Andy's Styles */
+body {
+    background: url(../assets/bgtexture.jpg);
+}
+
+.wrapper {
+    width: 100%;
+    background-color: white;
+    color: #5F002B;
+}
+
+.ourTeam {
+    background-color: white;
+    color: #5F002B;
+    font-size: 25px;
+    font-family: FugazOneRegular;
+}
+
+.photospage {
+    background-color: white;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: FugazOneRegular;
+
+}
+
+.StoryTextBG {
+    background-color: white;
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    float: top right;
+}
+
+.StoryText {
+    font-family: MontaukRegular;
+}
+
+.StoryTitle {
+    font-family: FugazOneRegular;
+}
+
+/* AboutPageMargin class is for spacing when changing to mobile between the cards */
+.AboutPageMargin {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #5F002B;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: Montauk;
+}
+
+/* End Andy's Styles */
